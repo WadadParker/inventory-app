@@ -20,7 +20,7 @@ export const SideBar = () => {
            <Link className={styles.link} to="/report"> Report </Link>
         </li>
         <li className={styles.list}>
-            <a className={styles.link} href="https://github.com/WadadParker/finance-management" target="_blank">Github</a>
+            <a className={styles.link} href="https://github.com/WadadParker/inventory-app" target="_blank">Github</a>
         </li>
     </nav>
   )
