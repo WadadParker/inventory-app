@@ -13,11 +13,11 @@ export const ItemForm = ({type,formHandler}) => {
 
   const clickHandler=()=>
   {
-    // formHandler({name:input.name,quantity:Number(input.quantity),price:Number(input.price),category:input.category});
+    formHandler({name:input.name,quantity:Number(input.quantity),price:Number(input.price),category:input.category});
     setInput({name:"",quantity:"",price:"",category:""});
   }
 
-  const isDisable=()=> input.quantity<1 || input.name==="" || input.category===""
+  const isDisable=()=> input.quantity<1 || input.name==="" || input.category==="" || input.price < 1
 
   return (
     <div className={styles.form}>
