@@ -84,7 +84,7 @@ export const getAllSales=()=>async(dispatch)=>
     try{
         dispatch({type:"FETCH_LOADING",payload:true});
         const response = await fetch(`${apiUrl}/sales`);
-        const data = response.json();
+        const data = await response.json();
 
         dispatch({type:"FETCH_SALES",payload:data.sales});
         dispatch({type:"FETCH_LOADING", payload:false});
