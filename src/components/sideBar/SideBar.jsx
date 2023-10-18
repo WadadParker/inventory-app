@@ -8,16 +8,13 @@ export const SideBar = () => {
   return (
     <nav className={styles.navbar}>
         <li className={styles.list}>
-          <Link className={styles.link} to="/">Home</Link>
-        </li>
-        <li className={styles.list}>
-           <Link className={styles.link} to="/items"> Items </Link>
+           <Link className={styles.link} to="/"> Items </Link>
         </li>
         <li className={styles.list}>
            <Link className={styles.link} to="/sales"> Sales </Link>
         </li>
         <li className={styles.list}>
-           <Link className={styles.link} to="/report"> Report </Link>
+           <Link className={styles.link} to="/report"> Reports </Link>
         </li>
         <li className={styles.list}>
             <a className={styles.link} href="https://github.com/WadadParker/inventory-app" target="_blank">Github</a>
