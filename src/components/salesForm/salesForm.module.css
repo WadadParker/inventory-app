@@ -1,0 +1,36 @@
+.form {
+    display: grid;
+    width: 20rem;
+    gap: 1em;
+    text-align: center;
+    align-self: center;
+    margin-top: -25%;
+}
+.form-header {
+    margin: 0;
+}
+.form input {
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    border-radius:8px ;
+    transition: 300ms;
+}
+.button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.button:disabled {
+    filter: brightness(0.6);
+    cursor: not-allowed;
+}
+.select{
+    padding: 1em;
+}

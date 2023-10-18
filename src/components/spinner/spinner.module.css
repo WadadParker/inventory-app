@@ -1,0 +1,25 @@
+.spinner-container {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    height: 70%;
+}
+.spinner {
+    margin: auto;
+    margin-top: -5rem;
+    width: 30px;
+    height: 30px;
+    border-top:3px solid black ;
+    border-radius: 50%;
+    animation: rotation 1s linear infinite;
+    align-self: center;
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+}

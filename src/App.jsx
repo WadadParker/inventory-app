@@ -1,7 +1,10 @@
 import {Route,Routes} from "react-router-dom";
 
 import { SideBar } from "./components/sideBar/SideBar"
-
+import { Home } from "./pages/home/Home";
+import { Items } from "./pages/items/Items";
+import { Report } from "./pages/report/Report";
+import { Sales } from "./pages/sales/Sales";
 
 function App() {
 
@@ -10,10 +13,9 @@ function App() {
       <SideBar />
 
       <Routes>
-        <Route path="/" element={<h1>Home</h1>} /> 
-        <Route path="/items" element={<h1>Items</h1>} /> 
-        <Route path="/sales" element={<h1>Sales</h1>} /> 
-        <Route path="/report" element={<h1>Report</h1>} /> 
+        <Route path="/" element={<Items />} /> 
+        <Route path="/sales" element={<Sales />} /> 
+        <Route path="/report" element={<Report />} /> 
       </Routes>
     </div>
   )

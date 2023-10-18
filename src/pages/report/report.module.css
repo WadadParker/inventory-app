@@ -1,0 +1,42 @@
+.report-header-container {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.table {
+    text-align: left;
+    margin-top: 1em;
+    border-collapse: collapse;
+    border: 1px solid rgb(209, 206, 206);
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+    overflow-y: scroll;
+    width: 50%;
+
+}
+.heading-row {
+    background-color: #F2F2F2;
+    color: #4D4D4D;
+}
+.heading-row th {
+    padding: 0.5em;
+}
+.table-data {
+    padding: 0.5em;
+    border-bottom:1px solid rgb(209, 206, 206) ;
+    font-size: 1.2em;
+}
+.report-button {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+    padding: 0.5em 1em;
+    transition: 300ms;
+}
+
+.report-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

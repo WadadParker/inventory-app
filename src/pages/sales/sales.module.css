@@ -1,0 +1,50 @@
+.filters {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.filters input {
+    padding: 0.5em 1em;
+}
+.main-container {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+  
+}
+.section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    align-items: start;
+}
+.table {
+    text-align: left;
+    margin-top: 1em;
+    border-collapse: collapse;
+    border: 1px solid rgb(209, 206, 206);
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px 0px rgba(26, 24, 30, 0.04);
+    overflow-y: scroll;
+
+}
+.heading-row {
+    background-color: #F2F2F2;
+    color: #4D4D4D;
+}
+.heading-row th {
+    padding: 0.5em;
+}
+.table-data {
+    padding: 0.5em;
+    border-bottom:1px solid rgb(209, 206, 206) ;
+    font-size: 1.2em;
+}
+.revenue {
+    text-align: right;
+    padding: 0 1em;
+}
+.total {
+    padding: 0 0.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
